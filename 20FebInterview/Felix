@@ -1,0 +1,55 @@
+Technical Acumen: System Design + End to End Innovation
+Technical Skills: Distributed systems fundamentals, testing and drive for quality.
+Behavioral Competency: end to end innovation, discuss on technical challenges and overcoming and ability to follow through.
+
+
+# Technical Acumen: System Design + End to End Innovation
+
+## System Design
+- Architected a comprehensive solution for flagging non-compliant dSTS applications, integrating multiple components such as data ingestion, processing, and visualization
+- Designed a robust data model that effectively captured and processed complex data from parquet files, ensuring accurate compliance checks
+- Implemented a flexible deployment strategy using Azure DevOps, which streamlined the CI/CD process and reduced deployment times from two weeks to a few hours
+
+## End to End Innovation
+- Led the project from conception to delivery, breaking it down into manageable chunks and coordinating cross-functional efforts to ensure timely completion
+- Innovatively addressed the IDX deployment cadence challenge by proposing and implementing a new deployment approach, demonstrating foresight and adaptability
+- Developed a PowerBi dashboard to visualize compliance data, providing stakeholders with actionable insights and enhancing decision-making capabilities
+
+# Technical Skills: Distributed Systems Fundamentals, Testing, and Drive for Quality
+
+## Distributed Systems Fundamentals
+- Employed Apache Spark on Azure Databricks to leverage distributed computing for processing large datasets efficiently, demonstrating a strong understanding of distributed systems
+- Implemented data partitioning and parallel processing strategies to optimize performance and scalability, ensuring the system could handle increasing data volumes
+
+## Testing and Drive for Quality
+- Developed a suite of automated tests to validate data processing flows, ensuring data integrity and rule accuracy
+- Used Apache Airflow to schedule and monitor tests, maintaining high quality and reliability throughout the data pipeline
+- Continuously refined processes based on feedback and testing results, demonstrating a commitment to quality and continuous improvement
+
+# Behavioral Competency: End to End Innovation, Technical Challenges, and Follow Through
+
+## End to End Innovation
+- Took ownership of the project, driving it from initial concept to successful implementation, and ensuring all components worked seamlessly together
+- Fostered a culture of innovation by encouraging team members to share ideas and collaborate on solutions, leading to creative problem-solving and improved outcomes
+
+## Technical Challenges and Overcoming
+- Addressed the challenge of complex data structures by collaborating with data scientists to develop a comprehensive data model
+- Overcame the IDX deployment cadence issue by implementing a flexible deployment strategy, demonstrating resilience and adaptability in the face of obstacles
+
+## Ability to Follow Through
+- Maintained consistent communication with stakeholders, ensuring alignment and transparency throughout the project
+- Established a feedback loop with the MISE team to continuously refine processes and anticipate future needs, demonstrating a proactive approach to follow-through and long-term success
+
+
+
+
+users want to migrate their apps from on prem to cloud and so we need to see if the apps are ready for migration, and will continue to work when users upgrade.
+How do you handle the user data migration?
+There is information about the user data in the database, and we need to see if the data can be migrated to the cloud.
+There is private info on tenants and this is private, so how do we handle this
+is there a table somewhere that has app info that will let the user know what apps are ready for migration?
+Apps to contiue working when users upgrade
+migrating server between onprem and cloud
+migrate to cloud and use azure virtual machine
+migrate from server to cloud 
+all ready for migration work

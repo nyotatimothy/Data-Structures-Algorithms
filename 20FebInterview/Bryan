@@ -1,0 +1,81 @@
+Technical Excellence: Coding + Collaboration
+Technical Skills: Coding / Pseudo code interview focus on algorithms and Data Structures.
+Behavioral Competency: Collaboration, working with others, unblock and team player.
+
+
+
+
+
+# Technical Excellence: Coding + Collaboration
+
+## Focus Areas
+- Technical Skills: Coding / Pseudo code interview focus on algorithms and Data Structures
+- **Behavioral Competency: Collaboration, working with others, unblock and team player**
+
+## Interview Questions and Responses
+
+### Cross-functional Team Collaboration
+**Q: Describe a time when you worked on a challenging cross-functional team that produced an exceptional deliverable.**
+
+During the Secure Future Initiative project, I worked with the MISE team, data scientists, and IT operations to flag non-compliant dSTS applications. This cross-functional effort required aligning different expertise and perspectives. By facilitating regular meetings and open communication, we successfully delivered a robust solution that enhanced compliance monitoring.
+
+### Building New Relationships
+**Q: Tell me about a time when you developed a relationship with another area of the company that had no previous history of collaboration.**
+
+Initially, our team had limited interaction with the MISE team. I took the initiative to reach out and establish a collaborative relationship by offering assistance with their PowerBi versioning and regression testing. This proactive approach led to our involvement in the Secure Future Initiative, fostering a strong partnership that benefited both teams.
+
+### External Team Problem Resolution
+**Q: Describe how you have collaborated with others outside of your immediate team to resolve a critical issue.**
+
+When faced with the IDX deployment cadence challenge, I collaborated with the Azure DevOps team to implement a flexible deployment strategy. This involved coordinating with their engineers to integrate our CI/CD pipelines, which significantly reduced deployment times and ensured timely updates for the MISE team.
+
+### Conflict Resolution
+**Q: Tell me about a time when you experienced conflict with a team member.**
+
+During the project, there was a disagreement with a team member over the data model's complexity. I addressed this by organizing a workshop where we could discuss our perspectives and align on a simplified yet effective model. This approach resolved the conflict and strengthened our working relationship.
+
+### Virtual Team Collaboration
+**Q: Describe your most recent experience working with a virtual team. What were the challenges you faced and how did you work through them?**
+
+The project involved virtual collaboration with team members across different time zones. The main challenge was coordinating meetings and ensuring everyone was on the same page. I implemented asynchronous communication tools and scheduled regular updates to keep the team aligned, which improved our efficiency and cohesion.
+
+### Learning from Unsuccessful Collaboration
+**Q: Tell me about a time when your attempt to collaborate across teams was unsuccessful.**
+
+In a previous project, I attempted to collaborate with a team that was resistant to change. Despite my efforts to demonstrate the benefits, the collaboration didn't materialize. Reflecting on this, I realized the importance of understanding team dynamics and building trust before proposing changes.
+
+## Probing Questions and Responses
+
+### Initial Involvement
+**Q: How did you first get involved?**
+
+I got involved when the MISE team reached out through a Microsoft vchannel, following my assistance with a colleague's PowerBi work. This initial interaction opened the door for further collaboration.
+
+### Project Outcome
+**Q: What was the outcome?**
+
+The outcome was a successful implementation of a system that effectively flagged non-compliant applications, improving compliance monitoring and data integrity.
+
+### Obstacle Management
+**Q: Did you run into any obstacles? Pick one and tell me how you addressed it.**
+
+One obstacle was the IDX deployment cadence. I addressed it by proposing and implementing a flexible deployment strategy, which involved collaborating with the Azure DevOps team to streamline our CI/CD processes.
+
+### Retrospective
+**Q: Looking back at this situation, what was the key to success? What would you do differently?**
+
+The key to success was proactive communication and building strong relationships across teams. In hindsight, I would have initiated the flexible deployment strategy earlier to avoid initial delays.
+
+## Evaluation Anchors
+
+### Demonstrated
+- Meaningful contributor by leading project breakdown and coordinating cross-functional efforts
+- Initiated collaboration with MISE team to solve compliance issues
+- Identified stakeholder concerns and aligned interests to achieve common goals
+- Managed competition by fostering a collaborative environment and resolving conflicts
+
+### Very Clearly Demonstrated
+- Critical role in collaborative activities, especially in overcoming deployment challenges
+- Anticipated stakeholder needs and proactively addressed them through flexible deployment
+- Fostered an environment encouraging open communication and collaboration
+- Provided unique solutions, such as PowerBi visualization, to enhance collaborative efforts

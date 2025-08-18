@@ -1,0 +1,6 @@
+Hey there! I'm Tim Nyota, and I'm currently working at Microsoft building testing frameworks and making sure enterprise apps work across different environments. Before that, I spent a few years at IBM Research Africa where I got to work on some cool distributed systems and ML projects.
+
+One thing I'm pretty proud of is a startup I co-founded called Meliora Technologies. We built this SMS gateway called Tiara that was handling over 2,000 transactions every minute and about 80 million monthly transactions. We got it deployed across 14 banks, including Kenya Commercial Bank, which was huge for us.
+
+I've got a bit of a mixed background - technical stuff from my software engineering experience, plus some business knowledge from my MBA. I've also worked on a few patents and published some papers, like using AI for water management in Kenya and tracking COVID-19 interventions.
+I really love building systems that can scale and tackling complex problems with creative solutions. Right now, I'm looking for something challenging where I can use my experience to build products that actually make a difference. 

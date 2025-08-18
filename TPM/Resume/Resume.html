@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timothy Chege Nyota - Software Engineer</title>
+    <style>
+/* Base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #333;
+  background: #fff;
+  line-height: 1.5;
+  font-size: 10pt;
+}
+
+.container {
+  max-width: 8.5in;
+  margin: 0.5in auto;
+  padding: 0 0.25in;
+}
+
+/* Typography */
+h1 {
+  font-size: 18pt;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+h2 {
+  font-size: 12pt;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 8px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #ddd;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-position: outside;
+  padding-left: 18px;
+}
+
+li {
+  margin-bottom: 4px;
+}
+
+/* Layout components */
+header {
+  margin-bottom: 16px;
+}
+
+.contact-info {
+  color: #555;
+  font-size: 9pt;
+  margin-bottom: 4px;
+}
+
+section {
+  margin-bottom: 14px;
+}
+
+.two-column {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 14px;
+}
+
+.two-column section {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+/* Skills section */
+.skills-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.skills-grid ul {
+  flex: 1;
+}
+
+/* Experience section */
+.experience {
+  margin-bottom: 12px;
+}
+
+.experience:last-child {
+  margin-bottom: 0;
+}
+
+.job-header {
+  margin-bottom: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.job-title {
+  font-weight: 600;
+  color: #444;
+}
+
+.job-company {
+  font-weight: 500;
+}
+
+.job-date {
+  color: #666;
+  font-size: 9pt;
+}
+
+/* Education section */
+.education {
+  margin-bottom: 10px;
+}
+
+.education:last-child {
+  margin-bottom: 0;
+}
+
+.edu-degree {
+  font-weight: 600;
+  color: #444;
+}
+
+.edu-school {
+  font-weight: 500;
+}
+
+.edu-date {
+  color: #666;
+  font-size: 9pt;
+  margin-bottom: 4px;
+}
+
+/* Print optimization */
+@media print {
+  body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+  }
+
+  .container {
+    margin: 0;
+    padding: 0.25in;
+    width: 100%;
+    max-width: none;
+  }
+
+  section {
+    margin-bottom: 10px !important;
+  }
+
+  li {
+    margin-bottom: 2px !important;
+  }
+
+  h2 {
+    margin-bottom: 4px !important;
+    padding-bottom: 2px !important;
+  }
+
+  .skills-grid {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 20px !important;
+  }
+
+  .skills-grid {
+    flex-direction: column;
+  }
+
+  .job-header {
+    flex-direction: column;
+  }
+}
+    </style>
+</head>
+<body>
+    <main class="container">
+        <header>
+            <h1>Timothy Chege Nyota</h1>
+            <div class="contact-info">
+                Nairobi, Kenya | nyotatimothy@gmail.com | +254 733 32 3506 | linkedin.com/in/timothynyota
+            </div>
+        </header>
+
+        <section>
+            <h2>Summary</h2>
+            <p>
+                Accomplished Software Engineer, Backend Engineer, and Full Stack Developer with 10+ years of experience designing, building, and optimizing scalable enterprise applications and distributed systems. Deep expertise in .NET, C#, TypeScript, cloud platforms (Azure), DevOps, and quality assurance. Proven success in leading engineering teams, architecting robust backend solutions, and delivering impactful products for global organizations. Adept at cross-functional collaboration, technical leadership, and driving innovation in backend, cloud, and full stack environments.
+            </p>
+        </section>
+
+        <section>
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <ul>
+                    <li>C# / .NET / .NET Core / ASP.NET</li>
+                    <li>TypeScript / JavaScript / Node.js / React / Angular</li>
+                    <li>SQL / SQL Server / Azure SQL / Cosmos DB / Redis</li>
+                    <li>Azure / Docker / Kubernetes / Cloud Computing</li>
+                    <li>PowerShell / Bash / Scripting</li>
+                </ul>
+                <ul>
+                    <li>CI/CD / Jenkins / Azure DevOps / Git / GitLab</li>
+                    <li>Selenium / xUnit / NUnit / Test Automation</li>
+                    <li>Microservices Architecture / REST APIs / Distributed Systems</li>
+                    <li>Agile / Scrum / TDD / OOD</li>
+                    <li>Technical Leadership / Project Management / Mentoring</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Work Experience</h2>
+            <div class="experience">
+                <div class="job-header">
+                    <div class="job-title">Software Engineer / Backend Engineer</div>
+                    <div class="job-company">Microsoft, Nairobi, Kenya</div>
+                    <div class="job-date">Mar 2021 – Present</div>
+                </div>
+                <ul>
+                    <li>Led development of regression testing frameworks for Windows platforms using C# and .NET, reducing deployment issues by 40%.</li>
+                    <li>Implemented automated compatibility testing strategies using TypeScript and Selenium for cross-platform support.</li>
+                    <li>Established engineering standards and best practices for Windows 10 and 11 features using Azure DevOps.</li>
+                    <li>Developed and maintained critical testing infrastructure supporting millions of endpoints using PowerShell and .NET.</li>
+                    <li>Implemented CI/CD pipelines using Azure DevOps and Jenkins, improving deployment efficiency by 60%.</li>
+                </ul>
+            </div>
+
+            <div class="experience">
+                <div class="job-header">
+                    <div class="job-title">Research Engineer / Cloud Engineer</div>
+                    <div class="job-company">IBM Research Africa, Nairobi, Kenya</div>
+                    <div class="job-date">Jun 2017 – Nov 2020</div>
+                </div>
+                <ul>
+                    <li>Developed QA frameworks for cloud systems using .NET Core and TypeScript.</li>
+                    <li>Implemented analytics solutions using Azure ML and .NET, improving system uptime by 35%.</li>
+                    <li>Published technical papers and research findings in peer-reviewed journals (ICLR, CSCW).</li>
+                    <li>Led development of cloud-based solutions using Azure and .NET Core.</li>
+                    <li>Managed Docker containers and Kubernetes clusters for scalable application deployment.</li>
+                </ul>
+            </div>
+
+            <div class="experience">
+                <div class="job-header">
+                    <div class="job-title">Co-Founder & Lead Software Engineer / Full Stack Developer</div>
+                    <div class="job-company">Meliora Technologies, Nairobi, Kenya</div>
+                    <div class="job-date">Jun 2015 – May 2017</div>
+                </div>
+                <ul>
+                    <li>Architected and developed Tiara SMS Gateway using .NET Core and TypeScript, processing 80M+ monthly transactions.</li>
+                    <li>Managed enterprise client relationships with major Kenyan banks including KCB.</li>
+                    <li>Designed and maintained routing systems across multiple mobile network operators using REST APIs and .NET.</li>
+                    <li>Led technical team in platform scaling and optimization using microservices architecture.</li>
+                    <li>Implemented real-time monitoring using ELK stack and Prometheus.</li>
+                </ul>
+            </div>
+
+            <div class="experience">
+                <div class="job-header">
+                    <div class="job-title">Project Manager and Lead Engineer</div>
+                    <div class="job-company">Ringier Africa, Nairobi, Kenya</div>
+                    <div class="job-date">Jan 2014 – Dec 2014</div>
+                </div>
+                <ul>
+                    <li>Managed development teams implementing QA automation for e-commerce platforms using Selenium and .NET.</li>
+                    <li>Established CI/CD pipelines using Jenkins and GitLab, improving deployment efficiency by 50%.</li>
+                    <li>Implemented agile project management methodologies using JIRA and Confluence.</li>
+                    <li>Led database optimization projects using SQL Server and Entity Framework.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Key Achievements</h2>
+            <ul>
+                <li>Developed and maintained a critical regression testing framework at Microsoft, stabilizing millions of endpoints globally.</li>
+                <li>Co-founded and engineered Tiara SMS Gateway at Meliora Technologies, scaling to 80M+ secure monthly transactions and serving major banks.</li>
+                <li>Spearheaded QA automation and analytics for cloud-based systems at IBM, improving operational uptime for utility platforms.</li>
+                <li>Co-authored and launched WNTRAC, an AI-based global tracker for COVID-19 interventions, used by governments and researchers worldwide.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <div class="education">
+                <div class="edu-degree">Master of Business Administration (Management Information Systems)</div>
+                <div class="edu-school">University of Nairobi, Kenya</div>
+                <div class="edu-date">2012 – 2014</div>
+            </div>
+            <div class="education">
+                <div class="edu-degree">BSc. Computer Science (Honours)</div>
+                <div class="edu-school">Jomo Kenyatta University of Agriculture & Technology, Kenya</div>
+                <div class="edu-date">2005 – 2009</div>
+            </div>
+            <div class="education">
+                <div class="edu-degree">Oracle Database Administration</div>
+                <div class="edu-school">Institute of Software Technologies, Kenya</div>
+                <div class="edu-date">2011</div>
+            </div>
+            <div class="education">
+                <div class="edu-degree">Certified Public Accountant</div>
+                <div class="edu-school">Strathmore University, Kenya</div>
+                <div class="edu-date">2009-2010</div>
+            </div>
+        </section>
+
+        <div class="two-column">
+            <section>
+                <h2>Patents</h2>
+                <ul>
+                    <li>P201909533US01: Managing trans-boundary water use using a distributed ledger and machine learning</li>
+                    <li>P201910905: A System and Method for Contextualised Market Scoring for Automatic Walking Route for Animals on Foot</li>
+                    <li>P201801602US01: Maintaining voice conversation continuity</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Publications</h2>
+                <ul>
+                    <li>WNTRAC: Artificial Intelligence Assisted Tracking of Non-pharmaceutical Interventions Implemented Worldwide for COVID-19 (2020)</li>
+                    <li>ICLR 2020: Machine Learning Approaches to Safeguarding Continuous Water Supply in the Arid and Semi-arid Lands of Northern Kenya</li>
+                    <li>CSCW 2018: Medication Management Companion (MMC) for a Rural Kenyan Community</li>
+                    <li>DIS 2019: Exploring Rural Community Practices in HIV Management for the Design of Technology for Hypertensive Patients Living with HIV</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+</body>
+</html>

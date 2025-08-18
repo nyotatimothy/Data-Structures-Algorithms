@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timothy Chege Nyota - Software Engineer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: white;
+            max-width: 210mm;
+            margin: 0 auto;
+            padding: 20mm;
+            font-size: 11pt;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 8px;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 6px;
+        }
+
+        .name {
+            font-size: 20pt;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 2px;
+        }
+
+        .title {
+            font-size: 12pt;
+            color: #34495e;
+            margin-bottom: 4px;
+        }
+
+        .contact-info {
+            font-size: 9pt;
+            color: #555;
+            line-height: 1.2;
+        }
+
+        .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .section {
+            margin-bottom: 15px;
+        }
+
+        .section-title {
+            font-size: 14pt;
+            font-weight: bold;
+            color: #2c3e50;
+            border-bottom: 1px solid #bdc3c7;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .summary {
+            text-align: justify;
+            margin-bottom: 10px;
+        }
+
+        .achievements-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .achievements-list li {
+            margin-bottom: 8px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .achievements-list li:before {
+            content: "•";
+            color: #3498db;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+
+        .experience-item {
+            margin-bottom: 12px;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 5px;
+        }
+
+        .job-title {
+            font-weight: bold;
+            color: #2c3e50;
+            font-size: 12pt;
+        }
+
+        .company {
+            font-weight: bold;
+            color: #34495e;
+        }
+
+        .date-location {
+            font-size: 10pt;
+            color: #7f8c8d;
+            text-align: right;
+        }
+
+        .job-description {
+            list-style-type: none;
+            padding-left: 0;
+            margin-top: 8px;
+        }
+
+        .job-description li {
+            margin-bottom: 6px;
+            padding-left: 18px;
+            position: relative;
+        }
+
+        .job-description li:before {
+            content: "•";
+            color: #3498db;
+            position: absolute;
+            left: 0;
+        }
+
+        .skills-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 8px;
+        }
+
+        .skill-category h4 {
+            color: #2c3e50;
+            margin-bottom: 4px;
+            font-size: 10pt;
+            font-weight: bold;
+        }
+
+        .skills-list {
+            list-style-type: none;
+            padding-left: 0;
+            margin-bottom: 8px;
+        }
+
+        .skills-list li {
+            margin-bottom: 1px;
+            padding-left: 12px;
+            position: relative;
+            font-size: 9pt;
+        }
+
+        .skills-list li:before {
+            content: "•";
+            color: #3498db;
+            position: absolute;
+            left: 0;
+        }
+
+        .education-item {
+            margin-bottom: 10px;
+        }
+
+        .education-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 3px;
+        }
+
+        .degree {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .school {
+            color: #34495e;
+        }
+
+        .education-date {
+            font-size: 10pt;
+            color: #7f8c8d;
+        }
+
+        .location {
+            font-size: 10pt;
+            color: #7f8c8d;
+        }
+
+        @media print {
+            body {
+                margin: 0;
+                padding: 10mm;
+                font-size: 10pt;
+            }
+            
+            .section {
+                page-break-inside: avoid;
+            }
+            
+            .experience-item {
+                page-break-inside: avoid;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            body {
+                padding: 10mm;
+                font-size: 10pt;
+            }
+            
+            .job-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .date-location {
+                text-align: left;
+                margin-top: 3px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="name">TIMOTHY CHEGE NYOTA</div>
+        <div class="title">Senior Software Engineer</div>
+        <div class="contact-info">
+            +254 733 32 3506 | nyotatimothy@gmail.com | LinkedIn: <a href="http://linkedin.com/in/timothynyota" target="_blank">linkedin.com/in/timothynyota</a> | GitHub: <a href="https://github.com/nyotatimothy?tab=repositories" target="_blank">github.com/nyotatimothy</a>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Summary</div>
+        <div class="summary">
+            Senior Software Engineer with 10+ years of hands-on experience architecting and delivering highly scalable distributed systems for fintech and enterprise applications. Expert in Java, Kotlin, Python, Scala, and cloud infrastructure (AWS/Azure), with proven track record of building high-volume/low-latency services handling 80M+ monthly transactions and sub-100ms response times. Extensive experience with JUMO's tech stack including Kotlin + Spring Boot, TypeScript + React, Docker, Kubernetes, Kafka, and comprehensive CI/CD pipelines. Strong background in financial services, having co-founded a fintech startup serving 12+ major banks and contributing to financial inclusion platforms. Skilled in system architecture, design patterns, code reviews, and mentoring engineering teams. Passionate about solving complex technical problems with scalable, testable, and maintainable solutions while driving engineering excellence and best practices in diverse, collaborative environments.
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Key Achievements</div>
+        <ul class="achievements-list">
+            <li>Transformed Microsoft's compliance data infrastructure by architecting robust end-to-end data pipelines using Azure Data Lake, Kusto DB, and IDX, improving data agility and reducing deployment cycles from 2 weeks to 1–3 days.</li>
+            <li>Reduced global deployment risks at Microsoft by designing and maintaining a regression testing framework for Identity platforms, achieving 95% test coverage and supporting 2M+ endpoints with 99.9% uptime.</li>
+            <li>Invented and delivered the IDX Helper Tool, a web-based onboarding assistant that reduced cloud analytics platform adoption time from 28 days to 1 day—now used internally to streamline developer onboarding.</li>
+            <li>Developed scalable ingestion and monitoring tools for 1M+ compliance signals and created executive-facing Power BI dashboards, which led to a 40% increase in proactive remediation by app owners.</li>
+            <li>Co-founded and led engineering at Meliora Technologies, architecting the Tiara SMS Gateway from scratch—scaled to handle 80M+ monthly transactions with 99.99% uptime, built telecom integrations across 4 mobile networks, and enabled real-time financial transaction notifications for 12+ major Kenyan banks including KCB.</li>
+            <li>Scaled cloud-native microservices at IBM Research from 50 to 200+ Dockerized services using Kubernetes, serving 50K+ daily active users with sub-100ms response times.</li>
+            <li>Architected and implemented scalable distributed systems using well-accepted design patterns, enabling iterative autonomous development and future scaling across multiple organizations (Microsoft, IBM, Ringier), reducing release cycles from 2 weeks to 2 days and increasing deployment efficiency by up to 60%.</li>
+            <li>Authored and published 4 peer-reviewed technical papers (ICLR, CSCW, DIS), including WNTRAC, a global AI-powered tracker for COVID-19 policies adopted by governments and researchers worldwide.</li>
+            <li>Awarded 3 technology patents in machine learning, blockchain for water governance, and intelligent routing—showcasing innovation at the intersection of research, software, and real-world impact.</li>
+            <li>Led successful enterprise client relationships with 12 major Kenyan banks (e.g., KCB) as a startup co-founder, resulting in 300% revenue growth in 18 months.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Professional Experience</div>
+        
+        <div class="experience-item">
+            <div class="job-header">
+                <div>
+                    <div class="job-title">Software Engineer | Backend Engineer</div>
+                    <div class="company">Microsoft</div>
+                </div>
+                <div class="date-location">March 2021 – April 2025<br>Nairobi County, Kenya</div>
+            </div>
+                         <ul class="job-description">
+                 <li>Led development of regression testing frameworks for Microsoft's Identity platforms, improving test coverage to 95% and reducing deployment issues by 40%.</li>
+                 <li>Implemented automated compatibility testing using TypeScript and Selenium, increasing cross-platform automation by 75% and cutting manual testing by 60%.</li>
+                 <li>Spearheaded CI/CD pipeline implementations using Azure DevOps and Jenkins, reducing build times by 40% and boosting deployment efficiency by 60%.</li>
+                 <li>Architected and managed large-scale data pipelines from Azure Data Lake to Kusto DB using IDX (Synapse-as-Code), enabling scalable analytics.</li>
+                 <li>Built data ingestion flows using Azure Data Factory to support real-time telemetry aggregation from 1M+ app signals.</li>
+                 <li>Developed high-availability testing infrastructure (2M+ endpoints) with 99.9% uptime using .NET and PowerShell.</li>
+                 <li>Designed executive dashboards in Power BI for compliance monitoring—improved remediation rates by 40%.</li>
+                 <li>Invented and mentored the development of the IDX Helper Tool, a web-based onboarding assistant that reduced IDX onboarding time from 28 days to 1.</li>
+                 <li>Drove adoption of modern deployment patterns, reducing data deployment cycles from 2 weeks to 1–3 days—accelerated data science experimentation.</li>
+                 <li>Led authentication user experience improvements, including passwordless sign-in visibility enhancements that reduced user complaints by 90% and authentication icon unification across 85% of Microsoft's identity UIs.</li>
+                 <li>Architected CIAM Quickstart Wizard as lead engineer, reducing developer onboarding time by 90% (from 50 to 5 minutes) and improving customer satisfaction scores by 70%.</li>
+                 <li>Built Power BI analytics dashboards for wizard drop-off analysis, increasing completion rates by 60% and reducing support tickets by 40% through data-driven UX improvements.</li>
+                 <li>Developed CIAM Contextualizer for app registration, enabling 100% of CIAM tenants to complete registration independently and resolving long-standing friction points.</li>
+                 <li>Created Power BI TMDL Regression Tool for model comparison visualization, reducing manual diffing time by 80% and adopted by 3+ engineering teams as standard validation.</li>
+             </ul>
+        </div>
+
+        <div class="experience-item">
+            <div class="job-header">
+                <div>
+                    <div class="job-title">Research Engineer / Cloud Engineer</div>
+                    <div class="company">IBM Research Africa</div>
+                </div>
+                <div class="date-location">June 2017 – November 2020<br>Nairobi County, Kenya</div>
+            </div>
+                         <ul class="job-description">
+                 <li>Designed and implemented QA frameworks for cloud platforms, boosting test coverage from 65% to 92% and cutting bug escape rate by 45%.</li>
+                 <li>Built and deployed Azure ML analytics solutions using .NET, enhancing system uptime by 35% and reducing incident resolution time by 60%.</li>
+                 <li>Developed and managed microservices architecture, scaling from 50 to 200+ services on Kubernetes while maintaining sub-100ms response times.</li>
+                 <li>Led end-to-end delivery of cloud-based applications on Microsoft Azure, achieving 99.95% availability and supporting 50K+ daily active users.</li>
+                 <li>Published 4 peer-reviewed technical papers in global journals (e.g., ICLR, CSCW) with 150+ citations, contributing to the field of applied cloud AI research.</li>
+                 <li>Developed water management platform using IoT sensors for rural Kenya, enabling real-time monitoring and 50% faster response times to water outages, impacting 300,000+ residents.</li>
+                 <li>Conducted 20+ on-site training sessions with county staff, achieving 95% system adoption rate across target regions within the first year of deployment.</li>
+                 <li>Contributed to Loop by CBA financial inclusion platform, optimizing backend transactions and behavioral modeling to reduce account setup drop-off by 30% for underbanked populations.</li>
+                 <li>Mentored 50+ participants and served as judge across multiple IBM Hackathons focused on sustainability, evaluating 15+ prototypes that advanced to IBM's incubation pipeline.</li>
+             </ul>
+        </div>
+
+        <div class="experience-item">
+            <div class="job-header">
+                <div>
+                    <div class="job-title">Co-Founder & Lead Software Engineer / Full Stack Developer</div>
+                    <div class="company">Meliora Technologies</div>
+                </div>
+                <div class="date-location">June 2015 – May 2017<br>Nairobi County, Kenya</div>
+            </div>
+            <ul class="job-description">
+                <li>Accomplished Full Stack Developer, Lead Software Engineer, and Tech Co-Founder with over 8 years of experience delivering enterprise-grade software and scalable cloud solutions across fintech and telecom domains.</li>
+                <li>Expertise in .NET Core, C#, TypeScript, RESTful APIs, and cloud-native development for high-transaction platforms.</li>
+                <li>Architected and built Tiara SMS Gateway, scaling from 1M to over 80M monthly SMS transactions with 99.99% uptime.</li>
+                <li>Designed and optimized routing systems across 4 major Kenyan mobile network operators, achieving 5000+ TPS and 99.9% message delivery success rate.</li>
+                <li>Led a high-performance team of 8 engineers, increasing platform throughput by 200% and reducing latency by 65%.</li>
+                <li>Implemented real-time monitoring and alerting with ELK Stack and Prometheus, reducing Mean Time to Recovery (MTTR) from 45 to 10 minutes.</li>
+                <li>Managed strategic relationships with 12 top-tier Kenyan banks (including KCB), driving 300% revenue growth over 18 months.</li>
+                <li>Proven ability in technical leadership, client engagement, and delivering high-availability platforms in fast-paced startup environments.</li>
+                <li>Solid experience with cloud platforms, DevOps, and performance optimization in production-critical systems.</li>
+                <li>Passionate about building resilient, real-time communication platforms and mentoring engineering teams to deliver at scale.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <div class="job-header">
+                <div>
+                    <div class="job-title">Project Manager and Lead Engineer</div>
+                    <div class="company">Ringier Africa</div>
+                </div>
+                <div class="date-location">January 2014 – December 2014<br>Nairobi County, Kenya</div>
+            </div>
+                         <ul class="job-description">
+                 <li>Led a team of 12 engineers in developing innovative mobile applications and enterprise backend systems using Java, Kotlin, Swift, and Objective-C, achieving 85% test coverage and reducing regression defects by 70%.</li>
+                 <li>Designed and implemented CI/CD pipelines using Jenkins and GitLab, improving deployment frequency by 50% and reducing release cycles from 2 weeks to 2 days.</li>
+                 <li>Implemented Agile/Scrum methodologies using JIRA and Confluence, increasing sprint velocity by 40% and team productivity by 35%.</li>
+                 <li>Optimized database performance using SQL Server and Entity Framework, reducing query response times by 75% and storage costs by 40%.</li>
+                 <li>Collaborated with cross-functional teams to design mobile applications for internal needs and partner projects, actively engaging with customers to ensure feature alignment with business objectives.</li>
+                 <li>Established DevOps best practices, test-driven development (TDD), and release management processes for mission-critical environments.</li>
+             </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Technical Skills</div>
+        <div class="skills-section">
+            <div class="skill-category">
+                <h4>Languages & Frameworks</h4>
+                <ul class="skills-list">
+                    <li>Java, Kotlin, Python, Scala</li>
+                    <li>TypeScript, JavaScript, C#</li>
+                    <li>Spring Boot, .NET Core, React</li>
+                    <li>React Native, HTML, CSS</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h4>Cloud & Infrastructure</h4>
+                <ul class="skills-list">
+                    <li>AWS, Microsoft Azure, Docker, Kubernetes</li>
+                    <li>Terraform, Azure DevOps, Jenkins, GitLab</li>
+                    <li>CI/CD, Microservices, Distributed Systems</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h4>Data & Analytics</h4>
+                <ul class="skills-list">
+                    <li>Apache Kafka, Apache Flink, Apache Spark</li>
+                    <li>Datadog, Power BI, Azure Data Factory</li>
+                    <li>Real-time Analytics, ETL Pipelines, SQL Server</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h4>DevOps & Tools</h4>
+                <ul class="skills-list">
+                    <li>GitHub Actions, ArgoCD, JIRA</li>
+                    <li>Confluence, Test-Driven Development</li>
+                    <li>System Architecture, Design Patterns</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Education</div>
+        
+        <div class="education-item">
+            <div class="education-header">
+                <div>
+                    <div class="degree">Master of Business Administration (Management Information Systems)</div>
+                    <div class="school">University of Nairobi</div>
+                </div>
+                <div class="education-date">2012 – 2014</div>
+            </div>
+            <div class="location">Nairobi, Kenya</div>
+        </div>
+
+        <div class="education-item">
+            <div class="education-header">
+                <div>
+                    <div class="degree">BSc. Computer Science (Honours)</div>
+                    <div class="school">Jomo Kenyatta University of Agriculture & Technology</div>
+                </div>
+                <div class="education-date">2005 – 2009</div>
+            </div>
+            <div class="location">Nairobi, Kenya</div>
+        </div>
+
+        <div class="education-item">
+            <div class="education-header">
+                <div>
+                    <div class="degree">Oracle Database Administration</div>
+                    <div class="school">Institute of Software Technologies</div>
+                </div>
+                <div class="education-date">2011</div>
+            </div>
+            <div class="location">Nairobi, Kenya</div>
+        </div>
+    </div>
+</body>
+</html>
