@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timothy Chege Nyota - Software Engineer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.4;
+            color: #333;
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 0.5in;
+            background: white;
+            font-size: 11pt;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #2c5aa0;
+            padding-bottom: 15px;
+        }
+        
+        .name {
+            font-size: 24pt;
+            font-weight: bold;
+            color: #2c5aa0;
+            margin-bottom: 5px;
+        }
+        
+        .title {
+            font-size: 14pt;
+            color: #666;
+            margin-bottom: 8px;
+        }
+        
+        .contact {
+            font-size: 10pt;
+            color: #555;
+        }
+        
+        .section {
+            margin-bottom: 18px;
+        }
+        
+        .section-title {
+            font-size: 12pt;
+            font-weight: bold;
+            color: #2c5aa0;
+            text-transform: uppercase;
+            border-bottom: 1px solid #2c5aa0;
+            margin-bottom: 8px;
+            padding-bottom: 2px;
+        }
+        
+        .summary {
+            text-align: justify;
+            line-height: 1.4;
+        }
+        
+        .achievements ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .achievements li {
+            margin-bottom: 6px;
+            padding-left: 15px;
+            position: relative;
+            text-align: justify;
+        }
+        
+        .achievements li:before {
+            content: "▶";
+            color: #2c5aa0;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        
+        .experience-item {
+            margin-bottom: 20px;
+            break-inside: avoid;
+        }
+        
+        .job-title {
+            font-size: 12pt;
+            font-weight: bold;
+            color: #2c5aa0;
+            text-transform: uppercase;
+        }
+        
+        .company {
+            font-size: 12pt;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .date-location {
+            font-size: 10pt;
+            color: #666;
+            font-style: italic;
+            margin-bottom: 8px;
+        }
+        
+        .experience-item ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .experience-item li {
+            margin-bottom: 4px;
+            padding-left: 15px;
+            position: relative;
+            text-align: justify;
+        }
+        
+        .experience-item li:before {
+            content: "•";
+            color: #2c5aa0;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        
+        .skills {
+            text-align: justify;
+        }
+        
+        .education-item {
+            margin-bottom: 8px;
+        }
+        
+        .degree {
+            font-weight: bold;
+            color: #2c5aa0;
+        }
+        
+        .institution {
+            font-weight: bold;
+        }
+        
+        .education-date {
+            font-size: 10pt;
+            color: #666;
+            font-style: italic;
+        }
+        
+        .divider {
+            border-top: 1px solid #ddd;
+            margin: 15px 0;
+        }
+        
+        @media print {
+            body {
+                margin: 0;
+                padding: 0.3in;
+                font-size: 10pt;
+            }
+            
+            .section {
+                margin-bottom: 12px;
+            }
+            
+            .experience-item {
+                margin-bottom: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="name">TIMOTHY CHEGE NYOTA</div>
+        <div class="title">Senior Software Engineer</div>
+        <div class="contact">
+            +254 721 9172 34 | nyotatimothy@gmail.com | LinkedIn: http://linkedin.com/in/timothynyota | GitHub: https://github.com/nyotatimothy
+        </div>
+    </div>
+
+    <div class="section summary">
+        <div class="section-title">Professional Summary</div>
+        <p>Results-driven Full Stack Developer with 5+ years of hands-on experience architecting, designing, and developing scalable full-stack solutions. Highly skilled in building responsive user interfaces using modern frameworks like React and implementing robust backend APIs and services using .NET Core, Node.js, and Python. Demonstrated expertise in cloud environments (Microsoft Azure), CI/CD pipelines, and DevOps practices with extensive experience in containerization (Docker, Kubernetes). Proficient in both relational databases (SQL Server, PostgreSQL) and cloud deployment patterns. Adept at collaborating with cross-functional teams, providing mentorship to junior engineers, and leading code reviews to ensure code quality and best practices. Passionate about implementing secure coding practices, staying current with emerging technologies, and contributing to technical decision-making for new features and products.</p>
+    </div>
+
+        <div class="section achievements">
+        <div class="section-title">Key Achievements</div>
+        <ul>
+            <li>Architected and developed scalable full-stack solutions at Microsoft, building robust end-to-end data pipelines using Azure cloud services, reducing deployment cycles from 2 weeks to 1–3 days and improving data agility across enterprise applications.</li>
+            <li>Designed and maintained comprehensive testing frameworks for Windows platforms, achieving 95% test coverage and supporting 2M+ endpoints with 99.9% uptime through automated testing and CI/CD best practices.</li>
+            <li>Built and deployed cloud-native microservices at IBM Research, scaling from 50 to 200+ Dockerized services using Kubernetes while maintaining sub-100ms response times for 50K+ daily active users.</li>
+            <li>Implemented CI/CD automation and DevOps practices across multiple organizations, reducing release cycles from 2 weeks to 2 days, increasing deployment efficiency by 60%, and reducing bug escape rates by 70%+.</li>
+            <li>Developed full-stack web applications including the IDX Helper Tool, a responsive interface that reduced cloud platform adoption time from 28 days to 1 day—now used internally to streamline developer onboarding.</li>
+            <li>Led engineering at Meliora Technologies, architecting high-transaction platforms from scratch that scaled to handle 80M+ monthly transactions with 99.99% uptime using robust backend APIs and services.</li>
+            <li>Created scalable data ingestion and monitoring solutions processing 1M+ signals with executive-facing dashboards, leading to 40% increase in proactive issue remediation through effective frontend data visualization.</li>
+            <li>Provided mentorship to engineering teams and conducted code reviews to ensure code quality and best practices, improving feature deployment speed by 45% through technical leadership and knowledge sharing.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Professional Experience</div>
+        
+        <div class="experience-item">
+            <div class="job-title">Senior Software Engineer | Backend Engineer</div>
+            <div class="company">MICROSOFT</div>
+            <div class="date-location">March 2021 – April 2025 | Nairobi County, Kenya</div>
+            <ul>
+                <li>Architected, designed, and developed scalable full-stack solutions including responsive user interfaces and robust backend APIs and microservices using .NET Core, TypeScript, and Azure cloud services.</li>
+                <li>Built and deployed applications in cloud environments (Microsoft Azure) with expertise in CI/CD pipelines, DevOps practices, and containerization (Docker, Kubernetes).</li>
+                <li>Collaborated with cross-functional teams including designers, product managers, and developers to define and implement enterprise-grade solutions across multiple projects.</li>
+                <li>Provided mentorship to junior engineers and led code reviews to ensure code quality and best practices, improving feature deployment speed by 45%.</li>
+                <li>Implemented secure coding practices and debugging techniques to troubleshoot and resolve complex technical issues across the full stack.</li>
+                <li>Designed comprehensive testing frameworks achieving 95% test coverage using automated testing tools including Selenium, reducing deployment issues by 40%.</li>
+                <li>Developed high-availability infrastructure supporting 2M+ endpoints with 99.9% uptime through robust backend services and monitoring solutions.</li>
+                <li>Created technical documentation for software systems, APIs, and architectural designs while contributing to knowledge sharing within the team.</li>
+                <li>Stayed current with emerging technologies and frameworks, proposing innovative solutions including the IDX Helper Tool that reduced platform adoption time from 28 days to 1 day.</li>
+            </ul>
+        </div>
+        <div class="divider"></div>
+
+        <div class="experience-item">
+            <div class="job-title">Research Engineer | Cloud Engineer</div>
+            <div class="company">IBM RESEARCH AFRICA</div>
+            <div class="date-location">June 2017 – November 2020 | Nairobi County, Kenya</div>
+            <ul>
+                <li>Developed and deployed full-stack applications in cloud environments (Microsoft Azure) with experience in both frontend frameworks and backend services using .NET Core and Python.</li>
+                <li>Built and managed microservices architecture, scaling from 50 to 200+ services using Docker and Kubernetes while maintaining sub-100ms response times for 50K+ daily active users.</li>
+                <li>Implemented CI/CD pipelines and DevOps practices, improving deployment processes and system reliability across cloud-native applications.</li>
+                <li>Collaborated with cross-functional research teams to translate emerging technologies into production-ready solutions with practical business applications.</li>
+                <li>Designed and implemented comprehensive testing frameworks, boosting test coverage from 65% to 92% and reducing bug escape rates by 45%.</li>
+                <li>Created technical documentation and contributed to knowledge sharing through 4 peer-reviewed technical papers with 150+ citations in global journals.</li>
+                <li>Demonstrated expertise in database management and cloud infrastructure automation for high-availability, scalable distributed systems.</li>
+            </ul>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="experience-item">
+            <div class="job-title">Co-Founder & Lead Software Engineer | Full Stack Developer</div>
+            <div class="company">MELIORA TECHNOLOGIES</div>
+            <div class="date-location">June 2015 – May 2017 | Nairobi County, Kenya</div>
+            <ul>
+                <li>Architected and developed scalable full-stack solutions including responsive user interfaces and robust backend APIs for high-transaction fintech and telecom platforms.</li>
+                <li>Built comprehensive systems using .NET Core, C#, TypeScript, and RESTful APIs, scaling from 1M to over 80M monthly SMS transactions with 99.99% uptime.</li>
+                <li>Collaborated with cross-functional teams including product managers and stakeholders to define and implement enterprise-grade solutions across 4 major mobile network operators.</li>
+                <li>Provided mentorship and technical leadership to a team of 8 engineers, improving platform throughput by 200% and reducing system latency by 65%.</li>
+                <li>Implemented DevOps practices and real-time monitoring solutions, reducing Mean Time to Recovery (MTTR) from 45 to 10 minutes through effective debugging and troubleshooting.</li>
+                <li>Stayed current with emerging technologies and contributed to technical decision-making, driving 300% revenue growth over 18 months through innovative platform features.</li>
+            </ul>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="experience-item">
+            <div class="job-title">Project Manager and Lead Engineer</div>
+            <div class="company">RINGIER AFRICA</div>
+            <div class="date-location">January 2014 – December 2014 | Nairobi County, Kenya</div>
+            <ul>
+                <li>Earlier Experience: Led engineering team in developing mobile applications, implementing CI/CD pipelines, and achieving 85% test coverage through automated testing strategies.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section skills">
+        <div class="section-title">Technical Skills</div>
+        <p><strong>Frontend:</strong> React, HTML, CSS, JavaScript, TypeScript</p>
+        <p><strong>Backend:</strong> .NET Core, Node.js, Python, Java, RESTful APIs</p>
+        <p><strong>Cloud & DevOps:</strong> Microsoft Azure, CI/CD Pipelines, Docker, Kubernetes, Azure DevOps</p>
+        <p><strong>Databases:</strong> SQL Server, PostgreSQL, Azure Data Lake, Azure Kusto</p>
+        <p><strong>Testing & Tools:</strong> Jest, Selenium, Jenkins, GitLab, PowerShell</p>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Education</div>
+        <div class="education-item">
+            <div class="degree">Master of Business Administration (Management Information Systems)</div>
+            <div class="institution">University of Nairobi</div>
+            <div class="education-date">2012 – 2014 | Nairobi, Kenya</div>
+        </div>
+        <div class="education-item">
+            <div class="degree">BSc. Computer Science (Honours)</div>
+            <div class="institution">Jomo Kenyatta University of Agriculture & Technology</div>
+            <div class="education-date">2005 – 2009 | Nairobi, Kenya</div>
+        </div>
+        <div class="education-item">
+            <div class="degree">Oracle Database Administration</div>
+            <div class="institution">Institute of Software Technologies</div>
+            <div class="education-date">2011 | Nairobi, Kenya</div>
+        </div>
+    </div>
+</body>
+</html>
